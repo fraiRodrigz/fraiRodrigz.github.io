@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reto 002</title>
+    <link rel="icon" type="image/jpg" href="favicon.ico"/>
+
+    <link rel="stylesheet" href="stylegoogle.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&family=Roboto&family=Roboto+Condensed&display=swap" rel="stylesheet">
+
+    
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li> 
+                    <a href="https://mail.google.com/mail/u/0/?tab=rm&ogbl">Gmail</a>
+                </li>
+                <li> 
+                    <a href="">Imágenes</a>
+                </li>
+                <li class="menu"> 
+                    <a href="">
+                        <img src="imagenes/menu-de-puntos.png" alt="Menú">
+                    </a>
+                </li>
+                <li> 
+                    <a href="#">
+                        <img class="perfil" src="imagenes/perfil.png" alt="Cuenta_de_Google">
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main> 
+        <h1>Google</h1>
+        <img src="imagenes/google.png" alt="">
+        <section id="form1">
+            <form calss="contenedor-buscar">
+                <div class="buscador">
+                    <span class="cont-lupa">
+                        <img class="lupa" src="imagenes/lupa.png" alt="lupa">
+                    </span>
+                    <input  class="escribir" type="search" onclick="buscador()">
+                    <button class="icono2" type="submit" value=".">
+                        <img src="imagenes/voz-de-google.png" alt="voz-de-google">
+                    </button>
+                    <button class="icono3" type="submit" value=".">
+                        <img src="imagenes/camara-google.png" alt="camara-google">
+                    </button> 
+                </div>
+            </form>        
+            <ul class="botonera">
+                <li class="lista">
+                    <a class="botones" href="#">Buscar con Google</a>
+                </li>
+                <li class="lista">
+                    <a class="botones" href="#">Voy a tener suerte</a>
+                </li>
+            </ul>
+        </section>
+
+        <section class="desaparecer" class="buscador-grande" id="form2">
+            <form class="expandido">
+                <div class="ventana">
+                    <span>
+                        <img class="lupa" src="imagenes/lupa.png" alt="lupa">
+                    </span>
+                    <input  class="escribir-expandido"  type="search">
+                    <button class="icono2" type="submit" value=".">
+                        <img src="imagenes/voz-de-google.png" alt="voz-de-google">
+                    </button>
+                    <button class="icono3" type="submit" value=".">
+                        <img src="imagenes/camara-google.png" alt="camara-google">
+                    </button> 
+                </div>
+                <hr class="linea">
+            </form>        
+            <ul class="botonera-expandida">
+                <li class="lista">
+                    <a class="botones" href="#">Buscar con Google</a>
+                </li>
+                <li class="lista">
+                    <a class="botones" href="#">Voy a tener suerte</a>
+                </li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>Argentina</p>
+        <hr>
+        <section>
+            <div>
+                <a class="items" href="#">Sobre Google</a>
+                <a class="items" href="#">Publicidad</a>
+                <a class="items" href="#">Negocios</a>
+                <a class="items" href="#">Cómo funciona la busqueda</a>
+            </div>
+            <div>
+                <a class="items" href="#">Privacidad</a>
+                <a class="items" href="#">Condiciones</a>
+                <a class="items" href="#">Preferencias</a>
+            </div>
+        </section>
+    </footer>
+
+    <script src="script.js"></script>
+    
+</body>
+</html>
