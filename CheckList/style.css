@@ -1,0 +1,48 @@
+body{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    flex-flow: wrap column ;
+    line-height: 2em;
+    font-family: 'Roboto', sans-serif;
+    background: url(imagenes/fondo.jpg);
+
+}
+
+h1{
+    font-family: 'Cabin Sketch', cursive;
+    font-weight: 400;
+    color: #8e24aa;
+}
+
+#nombre{
+    padding: 0.5em;
+    border-radius: 7px;
+    border-color: #fafafa;
+}
+
+#titulo{
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+    padding-bottom: 1.5em;
+    color: #8e24aa;
+}
+
+#contenedor{
+    display: flex;
+    flex-flow: wrap column;
+    justify-content: space-between;
+    background: RGBA( 230, 230, 250, 0.9 );
+    border-radius: 8px;
+    padding: 10px;
+    font-weight: 600;
+    color: #424242;
+}
+
+.tachar{
+    text-decoration: line-through;
+    color: #bdbdbd;
+}
+
